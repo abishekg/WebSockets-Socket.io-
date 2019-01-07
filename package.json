@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node":"8.9.4"
+    "node": "8.9.4"
   },
   "scripts": {
     "start": "nodemon index",
@@ -23,5 +23,8 @@
     "rimraf": "^2.6.2",
     "socket.io": "^2.2.0",
     "split-file": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
