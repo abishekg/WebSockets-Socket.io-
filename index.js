@@ -9,8 +9,8 @@ var config = require('./config/config');
 var klaw = require('klaw-sync');
 var rimraf = require('rimraf');
 var splitFile = require('split-file');
-var sizeOf = require('object-sizeof');
-var chokidar = require('chokidar');
+// var sizeOf = require('object-sizeof');
+// var chokidar = require('chokidar');
 
 var isShoreReadyToSend = false;
 
